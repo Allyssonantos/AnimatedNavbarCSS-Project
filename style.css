@@ -6,4 +6,10 @@ body {
 nav {
     position: relative;
     margin: 270px auto 0;
+    width: 590px;
+    height: 50px;
+    background: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px p rgba(0,0,0,.1);
 }
