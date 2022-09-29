@@ -13,3 +13,25 @@ nav {
     font-size: 0;
     box-shadow: 0 2px 3px p rgba(0,0,0,.1);
 }
+nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    /*height: 5px; */
+    top: 0;
+    /*bottom: 0; */
+    z-index: 0;
+    background: #1abc9c;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
